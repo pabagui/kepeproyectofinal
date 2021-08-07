@@ -1,0 +1,20 @@
+/* estilo footer */
+
+footer div {
+	.pieDePagina {
+		margin: 1em;
+	}
+	
+	.pieDePagina__texto {
+		font-family: $fuente_parrafos;
+		font-style: italic;
+		font-size: 12px;
+		color: $color_kepe;
+		font-weight: bolder;
+		padding-top: 3em;
+		padding-left: 2em;
+	}
+	
+}
+
+

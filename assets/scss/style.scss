@@ -1,5 +1,3 @@
-/* estilo general */
-* {
-    margin: 0;
-    padding: 0;
-}
+@import 'variables';
+@import 'general';
+@import 'footer';

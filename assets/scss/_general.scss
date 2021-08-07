@@ -1,0 +1,9 @@
+/* estilo general */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to top, $bg-color_claro, $bg-color_oscuro);
+  }
