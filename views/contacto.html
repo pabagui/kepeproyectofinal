@@ -26,17 +26,65 @@
     </head>
 
 <body>
+
+
+
+	<!-- formulario de contacto-->			
+	<main>
+		<h2>Contacto</h2>
+		<section class="container">
+			<form action="contacto.php" method="POST" enctype="multipart/form-data">
+					<div class="form-row contacto__formulario">
+					  <div class="col-md-4 mb-3">
+						<label for="validationDefault01">Nombre</label>
+						<input type="text" class="form-control" id="validationDefault01" placeholder="Nombre" required>
+					  </div>
+					  <div class="col-md-4 mb-3">
+						<label for="validationDefault02">Apellido</label>
+						<input type="text" class="form-control" id="validationDefault02" placeholder="Apellido" required>
+					  </div>
+					  <div class="col-md-4 mb-3">
+						<label for="validationDefault03">E-mail</label>
+						<input type="email" class="form-control" id="validationDefault03" placeholder="E-mail" required>
+					  </div>
+					</div>
+					<div class="form-row contacto__formulario">
+					  <div class="col-md-6 mb-3">
+						<label for="validationDefault04">Ciudad</label>
+						<input type="text" class="form-control" id="validationDefault04" placeholder="Ciudad" required>
+					  </div>
+					  <div class="col-md-3 mb-3">
+						<label for="validationDefault05">Región</label>
+						<input type="text" class="form-control" id="validationDefault05" placeholder="Región" required>
+					  </div>
+					  <div class="col-md-3 mb-3">
+						<label for="validationDefault06">País</label>
+						<input type="text" class="form-control" id="validationDefault06" placeholder="País" required>
+					  </div>
+					</div>
+					<div class="form-row contacto__formulario">
+						<div class="col-md-12 mb-12">
+						  <label for="validationDefault07">Mensaje</label>
+						  <textarea class="form-control" id="validationDefault07" placeholder="Escribe aquí tu mensaje" required></textarea>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+							<label class="form-check-label" for="invalidCheck2">¿Quieres recibir el newsletter?</label>
+						  </div>
+					</div>	
+					<div>
+						<button class="btn btn-light" type="submit">Enviar datos</button>
+						<button class="btn btn-outline-warning" type="reset" value="Limpiar datos">Limpiar datos</button>
+					</div>
+			</form>
+	</main>
+	<!-- fin formulario de contacto-->		
     
-
-
-
-
-
     <!-- footer -->
     <footer>
-        <div>
-        <p>&#169 2021 Todos los derechos reservados. Sitio desarrollado por Pablo Aguila</p>
-        </div>
+        <div class="pieDePagina">
+            <p class="pieDePagina__texto">&#169 2021 Todos los derechos reservados. Sitio desarrollado por Pablo Aguila</p>
+        </div>    
     </footer>
     <!-- fin footer -->
 

@@ -1,0 +1,28 @@
+/* estilo Contacto */
+// .contacto {@include boxprincipal(nowrap,3m 15%);padding: 2em;}
+
+main {
+
+    .container {
+        @include boxprincipal(nowrap,3em 15%);
+        padding: 1rem;
+        margin-bottom: 7rem;
+    }
+
+    .contacto__formulario {
+        font-family: $fuente_parrafos;
+        font-size: 16px;
+        color: $color-fuente;
+        padding: 0.5em;
+        margin: 0.5em;
+    }
+    .form-check {
+        padding: 0.5rem;
+    }
+    
+    button {
+        margin: 0.5rem;
+        font-family: $fuente_parrafos;
+        font-size: 16px;
+    }
+}
