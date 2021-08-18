@@ -1,0 +1,36 @@
+/* estilo Tiendas  */
+main {
+
+    .tiendas {
+        @include boxprincipal(wrap,3rem 15%);
+        padding: 1rem;
+    }
+
+    .card {
+        margin: 1rem 0.5rem;
+        width: 100%;
+        height: 27rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+        text-align: center;
+        padding: 1rem;
+        color: $color_kepe;
+        font-weight: bold;
+        font-family: $fuente_parrafos;
+    }
+
+    .tiendas__link{
+        padding: 1rem;
+    }
+
+    .tiendas__texto {
+        color: $color_kepe;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1rem;
+        font-family: $fuente_parrafos;
+    }
+    
+}
