@@ -1,0 +1,50 @@
+/* estilo Home  */
+
+//main {.inicio {@include boxprincipal(wrap,3m 25%);padding: 16px;} 
+
+main {
+
+    //.boxCarrousel {
+        //@include boxprincipal(wrap,3rem 15%);
+        //padding: 1rem;
+       // margin-bottom: 7rem;
+
+    //}
+
+    .boxCarrousel {
+        margin: 1rem 0.5rem;
+        width: 75%;
+        height: 20rem;
+        background-color: $color-kepe !important;
+    }
+    .inicio__img {
+        margin: auto;
+        animation-duration: 7s;
+        animation-name: aparecer;
+        animation-iteration-count:initial;
+    }
+     
+    @keyframes aparecer {
+        0% {
+            opacity: 0;  /* cuando no tiene animación*/
+        }
+        100% {
+            opacity: 1;  /* cuando tiene animación*/
+        }
+    }
+    
+    img {
+        height: auto;
+        width: 75%;
+        padding: 1rem;
+    }
+    .inicio__texto {
+        font-family: $fuente_parrafos;
+        font-size: 16px;
+        color: $color-fuente;
+        font-weight: 700;
+        padding: 20px;
+        text-align: center;
+    }
+
+}

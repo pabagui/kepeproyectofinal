@@ -9,6 +9,49 @@ body {
   background: linear-gradient(to top, #F7D27E, #FA8E69);
 }
 
+/* estilo encabezado */
+header .container-fluid {
+  margin: 0;
+  width: 100%;
+}
+header .logo {
+  width: 100px;
+  height: 120px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+header h1 {
+  color: #E64D19;
+  font-family: "Syne Tactile", cursive;
+  font-size: 55px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+header i {
+  color: #FFEBCD;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+header .menu {
+  background-color: #E64D19;
+  height: auto;
+}
+header .menu__efectos {
+  font-family: "Josefin Sans", sans-serif;
+  color: #FFEBCD;
+  font-size: 22px;
+  text-decoration: none;
+  border-radius: 15%;
+}
+header .menu__efectos:hover {
+  background-color: #FFEBCD;
+  transition: 0.7s;
+  color: #E64D19;
+}
+header .nav-item {
+  padding: 10px 10px;
+}
+
 /* estilo footer */
 footer div {
   background-color: #E64D19;
@@ -29,6 +72,43 @@ footer div .pieDePagina__texto {
 footer div i {
   color: #FFEBCD;
   padding: 0.5rem;
+}
+
+/* estilo Home  */
+main .boxCarrousel {
+  margin: 1rem 0.5rem;
+  width: 75%;
+  height: 20rem;
+  background-color: #E64D19 !important;
+}
+main .inicio__img {
+  margin: auto;
+  animation-duration: 7s;
+  animation-name: aparecer;
+  animation-iteration-count: initial;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    /* cuando no tiene animación*/
+  }
+  100% {
+    opacity: 1;
+    /* cuando tiene animación*/
+  }
+}
+main img {
+  height: auto;
+  width: 75%;
+  padding: 1rem;
+}
+main .inicio__texto {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: #FFEBCD;
+  font-weight: 700;
+  padding: 20px;
+  text-align: center;
 }
 
 /* estilo Contacto */
@@ -101,7 +181,7 @@ main .card {
   margin: 1rem 0.5rem;
   width: 100%;
   height: 27rem;
-  background-color: #F7D27E;
+  background-color: #E64D19;
 }
 main h3 {
   font-size: 1.4rem;

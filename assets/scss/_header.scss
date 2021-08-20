@@ -1,0 +1,53 @@
+/* estilo encabezado */
+header {
+
+    .container-fluid {
+        margin: 0;
+        width: 100%
+    }
+    
+    .logo {
+        width: 100px;
+        height: 120px;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+   
+    h1 {
+        color: $color_kepe;
+        font-family: $fuente_kepe;
+        font-size: 55px;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    i {
+        color: $color-fuente;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .menu {
+        background-color: $color_kepe;
+        height: auto;
+    }
+
+    .menu__efectos {
+        font-family: $fuente_parrafos;
+        color: $color-fuente;
+        font-size: 22px;
+        text-decoration: none;
+        border-radius: 15%;
+
+        &:hover {
+            background-color: $color-fuente;
+            transition: 0.7s;
+            color: $color_kepe;
+        }
+    }
+
+    .nav-item {
+        padding: 10px 10px;
+    }
+
+}
