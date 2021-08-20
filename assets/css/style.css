@@ -35,7 +35,7 @@ main .container {
 }
 main .contacto__formulario {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   color: #FFEBCD;
   padding: 0.5em;
   margin: 0.5em;
@@ -46,7 +46,11 @@ main .form-check {
 main button {
   margin: 0.5rem;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 16px;
+  font-size: 0.9rem;
+}
+main .btn {
+  color: #E64D19;
+  background-color: #FFEBCD;
 }
 
 /* estilo Quiénes somos */
@@ -89,6 +93,7 @@ main .card {
   margin: 1rem 0.5rem;
   width: 100%;
   height: 27rem;
+  background-color: #F7D27E;
 }
 main h3 {
   font-size: 1.4rem;
@@ -107,6 +112,39 @@ main .tiendas__texto {
   font-weight: bold;
   font-size: 1rem;
   font-family: "Josefin Sans", sans-serif;
+}
+
+/* estilo Productos  */
+main .card {
+  background: #F7D27E;
+  margin: 0.5rem;
+}
+main .productos__img {
+  width: 100%;
+  height: auto;
+  max-height: 280px;
+}
+main .productos__img:hover {
+  transform: scale(1.2, 1.2);
+  transition: 0.7s;
+}
+main h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #E64D19;
+  font-weight: bold;
+}
+main .productos__texto {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #E64D19;
+  font-weight: bold;
+}
+main .card-body {
+  margin-top: 0.5rem;
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

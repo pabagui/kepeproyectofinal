@@ -1,0 +1,50 @@
+/* estilo Productos  */
+
+main {
+    //.productos {@include boxprincipal(wrap,3rem 5%);padding: 0.5rem;}
+  
+    //.card-columns {
+      //  @media-breakpoint-only(lg) {
+        //    column-count: 4;
+       // }
+          
+       // }
+
+    .card {
+      background: $bg-color_claro;
+      margin: 0.5rem;
+  }
+
+  .productos__img {
+      width: 100%;
+      height: $height_img;
+      max-height: 280px; //parche de tamaño para card
+
+      &:hover {	
+          transform: scale(1.2,1.2);
+          transition: 0.7s;
+      }
+  }
+
+  h4 {
+      font-family: $fuente_parrafos;
+      font-size: 1.1rem;
+      text-align: center;
+      color:$color_kepe;
+      font-weight: bold;
+  }
+
+  .productos__texto {
+      font-family: $fuente_parrafos;
+      font-size: 0.9rem;
+      text-align: center;
+      color: $color_kepe;
+      font-weight: bold;
+  }
+  
+  .card-body {
+      margin-top: 0.5rem;
+      padding: 0;
+  }
+}
+
