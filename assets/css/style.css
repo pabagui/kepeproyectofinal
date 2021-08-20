@@ -10,17 +10,25 @@ body {
 }
 
 /* estilo footer */
+footer div {
+  background-color: #E64D19;
+}
 footer div .pieDePagina {
-  margin: 1em;
+  margin: 1rem;
+  padding: 1rem;
 }
 footer div .pieDePagina__texto {
   font-family: "Josefin Sans", sans-serif;
   font-style: italic;
   font-size: 12px;
-  color: #E64D19;
+  color: #FFEBCD;
   font-weight: bolder;
   padding-top: 3em;
   padding-left: 2em;
+}
+footer div i {
+  color: #FFEBCD;
+  padding: 0.5rem;
 }
 
 /* estilo Contacto */
