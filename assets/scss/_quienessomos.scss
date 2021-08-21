@@ -7,11 +7,7 @@ main {
         margin-bottom: 8rem;
     }
 
-
-    //.nosotros {@include boxprincipal(wrap,3rem 15%);
-
     .nosotros__texto {
-       // @extend .nosotros__video; //uso de extend
         font-family: $fuente_parrafos;
         font-size: 0.9rem;
         color: $color-fuente;
@@ -21,8 +17,8 @@ main {
 
     .nosotros__img {
 		width: 100%;
-		height: ($height_img); //-60;  //resta de una variable
-		@extend .nosotros__video; //uso de extend
+		height: ($height_img); 
+		@extend .nosotros__video; 
     }
 
     .nosotros__video { //clase que define el extend

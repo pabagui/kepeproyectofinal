@@ -1,14 +1,6 @@
 /* estilo Productos  */
 
 main {
-    //.productos {@include boxprincipal(wrap,3rem 5%);padding: 0.5rem;}
-  
-    //.card-columns {
-      //  @media-breakpoint-only(lg) {
-        //    column-count: 4;
-       // }
-          
-       // }
 
     .card {
       background: $bg-color_claro;
@@ -18,7 +10,7 @@ main {
   .productos__img {
       width: 100%;
       height: $height_img;
-      max-height: 280px; //parche de tamaño para card
+      max-height: 280px; 
 
       &:hover {	
           transform: scale(1.2,1.2);

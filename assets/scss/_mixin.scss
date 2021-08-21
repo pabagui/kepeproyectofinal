@@ -1,8 +1,5 @@
 @mixin boxprincipal ($flex_wrap, $margin){
-    //display: flex;
-    //flex-direction: row;
     flex-wrap: $flex_wrap;
-    //justify-content: center;
     background: $color_kepe;
     margin: $margin;
     height: auto;
