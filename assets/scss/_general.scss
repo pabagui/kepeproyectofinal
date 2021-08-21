@@ -7,3 +7,12 @@
 body {
     background: linear-gradient(to top, $bg-color_claro, $bg-color_oscuro);
   }
+
+  h2 {
+	color: $color_kepe;
+	font-family: $fuente_parrafos;
+	font-size: 2rem;
+	text-align: center;
+	margin-top: 1rem;
+	//margin-bottom: 0.2rem;
+}

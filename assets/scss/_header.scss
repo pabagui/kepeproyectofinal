@@ -1,10 +1,11 @@
 /* estilo encabezado */
 header {
+            
 
-    .container-fluid {
-        margin: 0;
-        width: 100%
-    }
+    //.container-fluid {
+    //    margin: 0;
+     //   width: 100%
+  //  }
     
     .logo {
         width: 100px;
@@ -14,22 +15,25 @@ header {
     }
    
     h1 {
-        color: $color_kepe;
+        color: $color_fuente;
         font-family: $fuente_kepe;
         font-size: 55px;
         margin-top: 2rem;
         margin-bottom: 1rem;
     }
 
-    i {
-        color: $color-fuente;
-        margin-top: 4rem;
-        margin-bottom: 1rem;
+    .menu {
+        background-color: $color-kepe;
+        height: auto;
     }
 
-    .menu {
-        background-color: $color_kepe;
-        height: auto;
+    //.navbar-toggler-icon {
+     //   color: $color-fuente;
+    //}
+    i {
+        color: $color-fuente;
+		//padding-bottom: 1rem;
+       // margin-bottom: 1rem;
     }
 
     .menu__efectos {

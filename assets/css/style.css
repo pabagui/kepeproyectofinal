@@ -9,11 +9,15 @@ body {
   background: linear-gradient(to top, #F7D27E, #FA8E69);
 }
 
-/* estilo encabezado */
-header .container-fluid {
-  margin: 0;
-  width: 100%;
+h2 {
+  color: #E64D19;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
 }
+
+/* estilo encabezado */
 header .logo {
   width: 100px;
   height: 120px;
@@ -21,20 +25,18 @@ header .logo {
   margin-bottom: 1rem;
 }
 header h1 {
-  color: #E64D19;
+  color: #FFEBCD;
   font-family: "Syne Tactile", cursive;
   font-size: 55px;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-header i {
-  color: #FFEBCD;
-  margin-top: 4rem;
-  margin-bottom: 1rem;
-}
 header .menu {
   background-color: #E64D19;
   height: auto;
+}
+header i {
+  color: #FFEBCD;
 }
 header .menu__efectos {
   font-family: "Josefin Sans", sans-serif;
@@ -75,12 +77,6 @@ footer div i {
 }
 
 /* estilo Home  */
-main .boxCarrousel {
-  margin: 1rem 0.5rem;
-  width: 75%;
-  height: 20rem;
-  background-color: #E64D19 !important;
-}
 main .inicio__img {
   margin: auto;
   animation-duration: 7s;
@@ -104,10 +100,10 @@ main img {
 }
 main .inicio__texto {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   color: #FFEBCD;
   font-weight: 700;
-  padding: 20px;
+  padding: 1.2rem;
   text-align: center;
 }
 

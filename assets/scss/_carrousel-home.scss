@@ -11,12 +11,12 @@ main {
 
     //}
 
-    .boxCarrousel {
-        margin: 1rem 0.5rem;
-        width: 75%;
-        height: 20rem;
-        background-color: $color-kepe !important;
-    }
+    //.boxCarrousel {
+    //    margin: 1rem 0.5rem;
+     //   width: 75%;
+     //   height: 20rem;
+      //  background-color: $color-kepe !important;
+   // }
     .inicio__img {
         margin: auto;
         animation-duration: 7s;
@@ -40,10 +40,10 @@ main {
     }
     .inicio__texto {
         font-family: $fuente_parrafos;
-        font-size: 16px;
+        font-size: 1rem;
         color: $color-fuente;
         font-weight: 700;
-        padding: 20px;
+        padding: 1.2rem;
         text-align: center;
     }
 
